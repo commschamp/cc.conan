@@ -15,7 +15,7 @@ class CcCommsConan(ConanFile):
     topics = ("comms", "comms-champion", "communication-protocol")
 
     # Binary configuration
-    settings = "compiler"
+    settings = "compiler", "build_type"
 
     scm = {
         "type": "git",

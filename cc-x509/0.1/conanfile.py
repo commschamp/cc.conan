@@ -2,7 +2,7 @@ from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMake, CMakeDeps, cmake_layout
 
 
-class CcCommsConan(ConanFile):
+class CcX509Conan(ConanFile):
     name = "cc-x509"
     version = "0.1"
     requires = "cc-comms/[>=5.0]"

@@ -2,7 +2,7 @@ from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMake, CMakeDeps, cmake_layout
 
 
-class CcCommsConan(ConanFile):
+class CcMqtt311Conan(ConanFile):
     name = "cc-mqtt311"
     version = "2.0"
     requires = "cc-comms/[>=5.0.1]"
